@@ -61,8 +61,8 @@ end
 
 
 % Determing the size of the arena
-x_sort=sort([x1_valid]);
-y_sort=sort([y1_valid]);
+x_sort = sort([x1_valid]);
+y_sort = sort([y1_valid]);
 
 
 x_min = mean(x_sort(1:50));
