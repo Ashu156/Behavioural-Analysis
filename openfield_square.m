@@ -1,5 +1,7 @@
 function [distance_total, distance_center, time_center, speed_average, speed_avg_center,entries] = openfield(x,y,duration, center_ratio)
 
+% Created with MATALAB 2014a
+
 % Defining the first valid frame
 
 len = size(x,1);
