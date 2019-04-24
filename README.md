@@ -1,4 +1,6 @@
 # Behavioural-Analysis
-Work in progress
 Analysis of behavioural data using MATLAB
-Written in MATLAB 2014a
+
+Written and tested in MATLAB 2014a
+
+Work in progress
