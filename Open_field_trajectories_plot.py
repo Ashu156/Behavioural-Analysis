@@ -89,10 +89,3 @@ fig.savefig('Track.eps', dpi = 300)
 # plt.ylim([-0.05, 1.05])
 # fig.tight_layout()
 # fig.savefig('Arena.eps', dpi = 300)
-
-
-fig = plt.scatter(x, y)
-x_line = arange(min(x), max(x), 1)
-y_line = objective(x_line, a, b)
-plt.plot(x_line, y_line, '--', color = 'red')
-fig.savefig('Arena.eps', dpi = 300)
